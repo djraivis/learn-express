@@ -21,7 +21,7 @@ function getWeather(reg, res, next) {
   }
 }
 app.get('/', (req, res) => {
-  res.render('home', {
+  res.render('index', {
     isRaining: req.visitorWeather,
     pets: [
       { name: 'Meowsalot', species: 'cat' },
